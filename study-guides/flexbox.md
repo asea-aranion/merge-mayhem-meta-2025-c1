@@ -1,4 +1,14 @@
 # Flexbox
+
+## Creating a Flexbox Container and Items
+
+You may be wondering, how do we even define or create a Flexbox container and items? Typically developers use the `div` HTML element to create sections that will then be defined as a Flexbox. In the CSS style file, we add a rule for these `div` containers that set the property `display` to the value `flex`.
+
+```css
+.container {
+	display: flex;
+}
+```
 ## Flexbox at a Glance
 
 **Flexbox** (or Flexible Box) creates a flexible container around items. It is an efficient way to position, align, and distribute items that are responsive to screen size. When discussing the Flexbox Layout, we will identify two key terms: flex container and flex items.
