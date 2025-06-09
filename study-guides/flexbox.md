@@ -26,3 +26,5 @@ Source: [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - **Flex item:** This refers to the elements contained in the flex container. Properties for the items include the order of items, changes in size based on screen size, and self-alignment compared to other items.
 
 
+
+In the example above, we create a rule that all `div` elements with the class name `container` will have the `display` property with value `flex` (aka a Flexbox!). Once you have defined a flex container, all elements inside automatically act as flex items.
