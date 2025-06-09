@@ -13,3 +13,5 @@ You may be wondering, how do we even define or create a Flexbox container and it
 	display: flex;
 }
 ```
+
+In the example above, we create a rule that all `div` elements with the class name `container` will have the `display` property with value `flex` (aka a Flexbox!). Once you have defined a flex container, all elements inside automatically act as flex items.
